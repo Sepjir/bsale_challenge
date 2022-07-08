@@ -27,9 +27,9 @@ La aplicación fue desplegada en `HEROKU` y su dirección es [https://bsale-devs
 
 * En el `Backend` se han dejado de forma pública algunos end-points tales como:
 
-> ```api/v1/products ---> muestra los primeros 10 productos de la BD añadiendo mediante INNER JOIN el nombre de su categoría```
-> ```api/v1/products/all ---> Muestra todos los productos de la BD añadiendo mediante INNER JOIN el nombre de su categoría```
-> ```api/v1/products?page=numero ---> Dirige a cada paginación de productos de la BD (sólo se muestran 10 por cada página), el "numero" deberá ser mayor a 0 y sólo un número```
-> ```api/v1/categories ---> Muestra todas las categorías de la BD```
+* ```api/v1/products ---> muestra los primeros 10 productos de la BD añadiendo mediante INNER JOIN el nombre de su categoría```
+* ```api/v1/products/all ---> Muestra todos los productos de la BD añadiendo mediante INNER JOIN el nombre de su categoría```
+* ```api/v1/products?page=numero ---> Dirige a cada paginación de productos de la BD (sólo se muestran 10 por cada página), el "numero" deberá ser mayor a 0 y sólo un número```
+* ```api/v1/categories ---> Muestra todas las categorías de la BD```
 
 

@@ -72,8 +72,7 @@ const getCategory = async() => {
 }
 
 const searchProduct = () => {
-  search.addEventListener("click", async (e) => {
-    e.preventDefault()
+  search.addEventListener("click", async () => {
     try {
       const product = document.getElementById("product").value
       const { data } = await axios.get(`${url}/api/v1/product/${product}`)

@@ -15,7 +15,7 @@ La aplicación fue desplegada en `HEROKU` y su dirección es [https://bsale-devs
 
 ### INTERACCIÓN CON APLICACIÓN CLIENTE
 
-* El `BUSCADOR` de productos tiene cargado el nombre de todos los productos de la base de datos, basta con elegir uno, clickear en el botón `BUSCAR` o dar `ENTER` luego de seleccionar la opción y se cargará el articulo abajo. 
+* El `BUSCADOR` de productos tiene cargado el nombre de todos los productos de la base de datos, basta con elegir uno, clickear en el botón `BUSCAR` luego de seleccionar la opción y se cargará el articulo abajo. 
 
 * También permite escribir el nombre del producto lo que acota la lista desplegada.
 

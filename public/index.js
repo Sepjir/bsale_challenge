@@ -1,4 +1,4 @@
-const url = 'http://localhost:5000'
+const url = 'https://dashing-jelly-635abb.netlify.app/'
 const cards = document.getElementById("cards");
 const datalist = document.getElementById("datalist");
 const category =  document.getElementById("category");

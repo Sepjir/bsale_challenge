@@ -71,7 +71,8 @@ const getCategory = async() => {
   }
 }
 
-const searchProduct = () => {
+const searchProduct = (e) => {
+  e.preventDefault()
   search.addEventListener("click", async () => {
     try {
       const product = document.getElementById("product").value

@@ -6,7 +6,7 @@ const connection = require("../database")
 router
     .route("/products")
     .get((req, res) => {
-        const {page} = Number(req.query)
+        const {page} = req.query
         const perPage = 10
         const offset = ((page - 1) * perPage)
         if (page > 0) {

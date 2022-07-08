@@ -3,6 +3,10 @@ const app =  express()
 const port = process.env.PORT || 5000
 const products =  require("./routes/productsRoute")
 const category = require("./routes/categoryRoute")
+const cors = require("cors")
+
+
+app.use(cors())
 
 
 app.use(express.json())
